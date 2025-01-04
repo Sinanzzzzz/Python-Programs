@@ -1,0 +1,11 @@
+weight=input("Enter your weight:")
+convert=input("(L)bs or (K)g:")
+
+if convert=="L" or convert=="l":
+    Pounds=int(weight)/0.45
+    print(f"You are {Pounds} Pounds")
+elif convert=="K" or convert=="k":
+    Kg=int(weight)*0.45
+    print(f"You are {Kg} Kilograms")
+else:
+    print("Entered the wrong input")
